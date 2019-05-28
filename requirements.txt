@@ -1,4 +1,4 @@
 django
 djangorestframework
-pytest-django
+pytest_django
 pytest
