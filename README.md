@@ -50,3 +50,9 @@ url: /employee/<employee_id>
 GET: Return an employee
 DELETE: Delete an employee
 ```
+
+##### Department
+```
+url: /department/
+GET: Return all departments
+```

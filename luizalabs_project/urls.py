@@ -16,10 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import url
 
+from core.views.department import DepartmentViewSet
 from core.views.employee import EmployeeViewSet
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'employee/(?P<employee_id>\d+)/$', EmployeeViewSet.as_view(), name='employee'),
-    url(r'employee/$', EmployeeViewSet.as_view(), name='employees')
+    url(r'employee/$', EmployeeViewSet.as_view(), name='employees'),
+    url(r'department/$', DepartmentViewSet.as_view(), name='departments')
 ]
