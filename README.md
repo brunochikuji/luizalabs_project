@@ -42,7 +42,7 @@ password: luizalabs
 ```
 url: /employee/
 GET: Return list of employees
-POST: Create a new employeez
+POST: Create a new employee
 ```
 ##### Employee
 ```
